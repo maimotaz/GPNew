@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dalal.gpnew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".restaurants" />
+        <activity android:name=".coming" />
+        <activity android:name=".regestration" />
+        <activity android:name=".users" />
+        <activity android:name=".addfrind" />
+        <activity android:name=".admin" />
+        <activity android:name=".addtable" />
+        <activity android:name=".bookedtables" />
+        <activity android:name=".friends" />
+        <activity android:name=".homeagent" />
+        <activity android:name=".homeuser" />
+        <activity android:name=".invitatonssaved" />
+        <activity android:name=".profileagent" />
+        <activity android:name=".profileuser" />
+        <activity android:name=".tableinfo" />
+        <activity android:name=".unbookedtable" />
+        <activity android:name=".userslist" />
+        <activity android:name=".restInfo" />
+        <activity android:name=".admienprofile" />
+        <activity android:name=".invititioncretion" />
+        <activity android:name=".resevedinvitation" />
+        <activity android:name=".invitationpage" />
+        <activity android:name=".sentreservation" />
+        <activity android:name=".notcominglist" />
+        <activity android:name=".resevedinvitations" />
+        <activity android:name=".sugestion" />
+        <activity android:name=".friendslist" />
+        <activity android:name=".editreservation" />
+        <activity android:name=".forgetpasswored" />
+        <activity android:name=".myreservation" />
+        <activity android:name=".notifocations" />
+        <activity android:name=".restorantlist" />
+        <activity android:name=".restrections" />
+        <activity android:name=".register" />
+        <activity android:name=".makereservation"></activity>
+    </application>
+
+</manifest>

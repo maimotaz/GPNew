@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="QS_array">
+            <item>ماسم صديقك المفضل ؟ </item>
+            <item>ماسم معلمك المفضل ؟ </item>
+            <item>ماسم مدينتك المفضل ؟ </item>
+           
+        </string-array>
+
+</resources>

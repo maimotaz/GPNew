@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_homeuser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffff"
+    tools:context="com.example.dalal.gpnew.homeuser">
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arow"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="227dp"
+        android:layout_height="49dp"
+        android:background="@drawable/zwara_word"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:onClick="friends"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        android:layout_height="215dp"
+        android:background="@drawable/frieds"
+        android:layout_width="162dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <ImageButton
+        android:onClick="notifications"
+        android:id="@+id/imageButton10"
+        android:elevation="0dp"
+        android:layout_height="255dp"
+        android:layout_width="162dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/alerts"
+        tools:layout_editor_absoluteY="57dp"
+        tools:layout_editor_absoluteX="192dp"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:layout_alignBottom="@+id/imageButton6" />
+
+    <ImageButton
+        android:onClick="invitation"
+        android:id="@+id/imageButton9"
+        android:scaleType="fitXY"
+        android:background="@drawable/createin"
+        android:layout_height="255dp"
+        android:layout_width="192dp"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_toLeftOf="@+id/imageButton10"
+        android:layout_toStartOf="@+id/imageButton10"
+        android:layout_below="@+id/imageButton6" />
+
+    <ImageButton
+        android:onClick="rest"
+        android:id="@+id/imageButton11"
+        android:scaleType="fitXY"
+        android:layout_height="255dp"
+        android:background="@drawable/book"
+        android:layout_width="192dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:layout_editor_absoluteX="192dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageButton10"
+        android:layout_alignEnd="@+id/imageButton10"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:layout_below="@+id/imageButton6" />
+
+</RelativeLayout>
