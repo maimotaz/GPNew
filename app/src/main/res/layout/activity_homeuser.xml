@@ -22,8 +22,8 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="227dp"
-        android:layout_height="49dp"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
         android:background="@drawable/zwara_word"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
@@ -51,12 +51,9 @@
         android:layout_height="215dp"
         android:background="@drawable/frieds"
         android:layout_width="162dp"
-        android:layout_marginTop="43dp"
         android:layout_below="@+id/imageButton2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp" />
+        android:layout_toLeftOf="@+id/imageButton10"
+        android:layout_toStartOf="@+id/imageButton10" />
 
     <ImageButton
         android:onClick="notifications"
@@ -68,10 +65,12 @@
         android:background="@drawable/alerts"
         tools:layout_editor_absoluteY="57dp"
         tools:layout_editor_absoluteX="192dp"
-        android:layout_alignTop="@+id/imageButton6"
-        android:layout_toRightOf="@+id/imageButton6"
-        android:layout_toEndOf="@+id/imageButton6"
-        android:layout_alignBottom="@+id/imageButton6" />
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_above="@+id/imageButton9" />
 
     <ImageButton
         android:onClick="invitation"
@@ -82,9 +81,10 @@
         android:layout_width="192dp"
         android:layout_alignLeft="@+id/imageButton6"
         android:layout_alignStart="@+id/imageButton6"
-        android:layout_toLeftOf="@+id/imageButton10"
         android:layout_toStartOf="@+id/imageButton10"
-        android:layout_below="@+id/imageButton6" />
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignRight="@+id/imageButton6"
+        android:layout_alignEnd="@+id/imageButton6" />
 
     <ImageButton
         android:onClick="rest"
@@ -98,8 +98,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/imageButton10"
         android:layout_alignEnd="@+id/imageButton10"
-        android:layout_toRightOf="@+id/imageButton6"
         android:layout_toEndOf="@+id/imageButton6"
-        android:layout_below="@+id/imageButton6" />
+        android:layout_below="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6" />
 
 </RelativeLayout>

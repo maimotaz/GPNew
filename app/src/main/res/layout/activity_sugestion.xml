@@ -89,7 +89,7 @@
         android:layout_width="1000dp"
         android:layout_height="50dp"
         android:textColor="#D98518"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:id="@+id/textView12"
         android:layout_marginTop="74dp"
         android:layout_alignParentTop="true"

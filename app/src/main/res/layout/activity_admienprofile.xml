@@ -13,6 +13,7 @@
 
 
     <ImageButton
+        android:onClick="Back"
         android:layout_width="50dp"
         android:layout_height="70dp"
         android:background="@drawable/arow"
@@ -36,8 +37,8 @@
 
 
     <ImageView
-        android:layout_width="227dp"
-        android:layout_height="49dp"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
         android:background="@drawable/zwara_word"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"

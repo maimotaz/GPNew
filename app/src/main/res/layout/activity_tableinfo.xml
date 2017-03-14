@@ -154,6 +154,7 @@
 
     <TextView
         android:text="طاولة رقم  155"
+        android:textSize="30sp"
         android:layout_width="286dp"
         android:layout_height="34dp"
         tools:layout_editor_absoluteY="89dp"

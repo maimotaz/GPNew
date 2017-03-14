@@ -23,7 +23,6 @@
         <activity android:name=".admin" />
         <activity android:name=".addtable" />
         <activity android:name=".bookedtables" />
-        <activity android:name=".friends" />
         <activity android:name=".homeagent" />
         <activity android:name=".homeuser" />
         <activity android:name=".invitatonssaved" />
@@ -49,7 +48,8 @@
         <activity android:name=".restorantlist" />
         <activity android:name=".restrections" />
         <activity android:name=".register" />
-        <activity android:name=".makereservation"></activity>
+        <activity android:name=".makereservation" />
+        <activity android:name=".frind"></activity>
     </application>
 
 </manifest>

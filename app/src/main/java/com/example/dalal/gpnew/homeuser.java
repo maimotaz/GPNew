@@ -17,7 +17,7 @@ public class homeuser extends AppCompatActivity {
     public  void friends (View view)
     {
 
-        Intent intent = new Intent(homeuser.this,friends.class);
+        Intent intent = new Intent(homeuser.this,frind.class);
         startActivity(intent);
     }
 

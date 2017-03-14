@@ -58,9 +58,10 @@
         android:layout_toEndOf="@+id/imageView" />
 
     <ImageView
+        android:onClick="Back"
         android:layout_width="69dp"
         android:layout_height="49dp"
-       android:background="@drawable/saham"
+        android:background="@drawable/saham"
         android:id="@+id/imageView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -92,6 +93,7 @@
 
     <TextView
         android:text="إضافة طاولة جديدة"
+        android:textSize="30sp"
         android:layout_width="286dp"
         android:layout_height="34dp"
         tools:layout_editor_absoluteY="89dp"
@@ -101,9 +103,9 @@
         android:foreground="@android:color/transparent"
         android:textColor="#eeb44e"
         android:layout_below="@+id/imageView"
-        android:layout_alignRight="@+id/imageView3"
-        android:layout_alignEnd="@+id/imageView3"
-        android:layout_marginTop="42dp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
 
     <Spinner
         android:layout_width="99dp"

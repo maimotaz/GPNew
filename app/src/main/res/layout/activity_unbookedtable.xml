@@ -70,8 +70,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="25dp"
-        android:layout_toEndOf="@+id/imageButton4"
-        android:layout_toRightOf="@+id/imageButton4" />
+        />
 
     <TextView
         android:text="طاولة رقم١٣"
@@ -106,9 +105,9 @@
         android:scaleType="fitXY"
         android:layout_width="91dp"
         android:layout_height="53dp"
-        android:layout_alignTop="@+id/imageButton5"
+        android:layout_alignBottom="@+id/imageView10"
         android:layout_toRightOf="@+id/imageButton5"
         android:layout_toEndOf="@+id/imageButton5"
-        android:layout_alignBottom="@+id/textView3" />
+        android:layout_alignTop="@+id/imageView10" />
 
 </RelativeLayout>

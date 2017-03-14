@@ -54,7 +54,7 @@
     <TextView
         android:text="الاصدقاء"
         android:textColor="#D98518"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView26"
@@ -91,13 +91,12 @@
         android:text="اختر الاصدقاء للارسال"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="11dp"
         android:id="@+id/textView36"
         android:textStyle="normal|bold"
         android:textColor="#7a5a23"
         android:layout_below="@+id/textView35"
-        android:layout_alignRight="@+id/textView35"
-        android:layout_alignEnd="@+id/textView35" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text=""

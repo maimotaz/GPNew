@@ -36,7 +36,7 @@
     <TextView
         android:text="دعوة سارة"
         android:textColor="#D98518"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView13"
