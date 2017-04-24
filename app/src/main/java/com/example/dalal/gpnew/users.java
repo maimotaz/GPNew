@@ -39,7 +39,7 @@ public class users extends AppCompatActivity {
     }
 
 
-    public void GoProfilePage  (View view)
+    public void profile  (View view)
     {
         Intent intent = new Intent(users.this,admienprofile.class);
         startActivity(intent);

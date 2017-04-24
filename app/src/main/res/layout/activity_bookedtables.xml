@@ -13,7 +13,7 @@
     tools:context="com.example.dalal.gpnew.bookedtables">
 
     <ImageButton
-        android:onClick="Bake"
+        android:onClick="Back"
         android:layout_width="50dp"
         android:layout_height="70dp"
         android:background="@drawable/arow"
