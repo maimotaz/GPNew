@@ -14,6 +14,15 @@ public class homeuser extends AppCompatActivity {
 
     }
 
+
+    public  void Back (View view)
+    {
+
+        Intent intent = new Intent(homeuser.this,login.class);
+        startActivity(intent);
+
+    }
+
     public  void friends (View view)
     {
 

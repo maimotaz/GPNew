@@ -35,7 +35,7 @@ public class restaurants extends AppCompatActivity {
 
     public void GoProfilePage  (View view)
     {
-        Intent intent = new Intent(restaurants.this,admin.class);
+        Intent intent = new Intent(restaurants.this,admienprofile.class);
         startActivity(intent);
     }
 

@@ -49,7 +49,9 @@
         <activity android:name=".restrections" />
         <activity android:name=".register" />
         <activity android:name=".makereservation" />
-        <activity android:name=".frind"></activity>
+        <activity android:name=".frind" />
+        <activity android:name=".apologization" />
+        <activity android:name=".sug"></activity>
     </application>
 
 </manifest>

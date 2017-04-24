@@ -11,24 +11,39 @@
     android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.admin">
 
-    <TextView
-
-        android:text=""
+    <ImageButton
         android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
         android:background="@drawable/arow"
-        android:layout_width="40sp"
-        android:layout_height="35sp"
-        android:id="@+id/textView30"
-        android:layout_weight="0.75" />
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text=""
+    <ImageView
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:background="@drawable/zwara_word"
-        android:id="@+id/textView34"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
 
     <Button
         android:text=""
@@ -38,7 +53,11 @@
         android:layout_height="300sp"
         android:id="@+id/button18"
         android:layout_alignParentBottom="true"
-         />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toLeftOf="@+id/button19"
+        android:layout_toStartOf="@+id/button19" />
 
     <TextView
         android:text=""
@@ -46,23 +65,11 @@
         android:layout_width="wrap_content"
         android:layout_height="100sp"
         android:id="@+id/textView43"
-        android:layout_below="@+id/textView34"
-        android:layout_marginTop="24dp" />
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button18" />
 
-    <TextView
-
-        android:text=""
-        android:layout_width="40sp"
-        android:background="@drawable/person"
-        android:layout_height="35sp"
-        android:id="@+id/textView29"
-        android:layout_weight="1"
-        android:onClick="GoProfilePage"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/textView34"
-        android:layout_toEndOf="@+id/textView34"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp" />
 
     <Button
         android:text=""
@@ -71,10 +78,9 @@
         android:layout_width="180sp"
         android:layout_height="300sp"
         android:id="@+id/button19"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/button18"
-        android:layout_toEndOf="@+id/button18" />
+        android:layout_alignBottom="@+id/button18"
+        android:layout_alignTop="@+id/button18" />
 
 </RelativeLayout>

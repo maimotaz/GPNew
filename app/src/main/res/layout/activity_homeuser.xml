@@ -8,11 +8,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#ffff"
+    android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.homeuser">
 
 
     <ImageButton
+        android:onClick="Back"
         android:layout_width="50dp"
         android:layout_height="70dp"
         android:background="@drawable/arow"
@@ -31,6 +32,7 @@
 
 
     <ImageButton
+        android:onClick="profile"
         android:layout_width="80dp"
         android:layout_height="71dp"
         tools:layout_editor_absoluteY="71dp"
@@ -42,6 +44,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/imageView" />
+
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -95,11 +98,11 @@
         android:layout_width="192dp"
         tools:layout_editor_absoluteY="312dp"
         tools:layout_editor_absoluteX="192dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/imageButton10"
         android:layout_alignEnd="@+id/imageButton10"
         android:layout_toEndOf="@+id/imageButton6"
         android:layout_below="@+id/imageButton6"
-        android:layout_toRightOf="@+id/imageButton6" />
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_alignBottom="@+id/imageButton9" />
 
 </RelativeLayout>

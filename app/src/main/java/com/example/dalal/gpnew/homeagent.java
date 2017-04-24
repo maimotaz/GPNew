@@ -13,7 +13,24 @@ public class homeagent extends AppCompatActivity {
         setContentView(R.layout.activity_homeagent);
     }
 
+
+    public  void profile (View view)
+    {
+
+        Intent intent = new Intent(homeagent.this,profileagent.class);
+        startActivity(intent);
+
+    }
+
     public  void Back (View view)
+    {
+
+        Intent intent = new Intent(homeagent.this,login.class);
+        startActivity(intent);
+
+    }
+
+    public  void book (View view)
     {
 
         Intent intent = new Intent(homeagent.this,bookedtables.class);
@@ -22,7 +39,7 @@ public class homeagent extends AppCompatActivity {
     }
 
 
-    public  void notBack (View view)
+    public  void unbook (View view)
     {
 
         Intent intent = new Intent(homeagent.this,unbookedtable.class);

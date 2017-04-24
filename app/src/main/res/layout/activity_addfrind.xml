@@ -13,25 +13,40 @@
     tools:context="com.example.dalal.gpnew.addfrind">
 
 
+    <ImageButton
+        android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arow"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <ImageView
-        android:layout_width="227dp"
-        android:layout_height="49dp"
-        android:background="@drawable/zwarahh"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:background="@drawable/zwara_word"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
 
-    <ImageView
-        android:layout_width="67dp"
-        android:layout_height="50dp"
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
         android:background="@drawable/pers"
-        android:id="@+id/imageView3"
-        tools:layout_editor_absoluteY="7dp"
-        tools:layout_editor_absoluteX="317dp"
-        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
+
 
     <ImageView
         android:layout_width="1100sp"
@@ -45,19 +60,21 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="اكتب اسم المستخدم للبحث"
+        android:id="@+id/textView2"
         android:layout_width="207dp"
         android:layout_height="38dp"
-        tools:layout_editor_absoluteY="73dp"
-        tools:layout_editor_absoluteX="165dp"
-        android:id="@+id/textView2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:foreground="@android:color/transparent"
-        android:textColor="#E29302"
         android:layout_above="@+id/imageView10"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="26dp" />
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="26dp"
+        android:foreground="@android:color/transparent"
+        android:text="اكتب اسم المستخدم للبحث"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E29302"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="73dp" />
 
     <TextView
         android:text="محمد"
@@ -74,31 +91,22 @@
         android:layout_marginRight="20dp"
         android:layout_marginEnd="20dp" />
 
-    <ImageView
-        android:layout_width="69dp"
-        android:layout_height="49dp"
-        android:background="@drawable/saham"
-        android:id="@+id/imageView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_toLeftOf="@+id/imageView"
-        android:layout_toStartOf="@+id/imageView" />
 
     <TextView
-        android:text="بحث"
+        android:id="@+id/textView4"
         android:layout_width="107dp"
         android:layout_height="44dp"
-        tools:layout_editor_absoluteY="111dp"
-        tools:layout_editor_absoluteX="261dp"
-        android:id="@+id/textView4"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:foreground="@android:color/transparent"
-        android:textColor="#E29302"
-        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/imageView"
+        android:foreground="@android:color/transparent"
+        android:text="بحث"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E29302"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="111dp" />
 
     <SearchView
         tools:layout_editor_absoluteY="111dp"

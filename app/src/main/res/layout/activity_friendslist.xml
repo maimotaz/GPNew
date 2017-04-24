@@ -11,6 +11,39 @@
     android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.friendslist">
 
+    <ImageButton
+        android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arow"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:background="@drawable/zwara_word"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
 
     <CheckedTextView
         android:textColor="#8B4513"
@@ -52,15 +85,15 @@
          />
 
     <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
         android:text="الاصدقاء"
         android:textColor="#D98518"
         android:textSize="30sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView26"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:id="@+id/textView35" />
+        android:textStyle="bold" />
 
     <CheckBox
         android:text=""
@@ -88,50 +121,17 @@
         android:layout_alignBottom="@+id/checkedTextView3" />
 
     <TextView
-        android:text="اختر الاصدقاء للارسال"
+        android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:id="@+id/textView36"
-        android:textStyle="normal|bold"
+        android:layout_above="@+id/checkBox3"
+        android:layout_centerHorizontal="true"
+        android:text="اختر الاصدقاء للارسال"
         android:textColor="#7a5a23"
-        android:layout_below="@+id/textView35"
-        android:layout_centerHorizontal="true" />
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 
-    <TextView
-        android:text=""
-        android:layout_width="40sp"
-        android:background="@drawable/person"
-        android:layout_height="35sp"
-        android:id="@+id/textView28"
-        android:layout_alignBaseline="@+id/textView27"
-        android:layout_alignBottom="@+id/textView27"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:text=""
-        android:background="@drawable/zwara_word"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:id="@+id/textView26"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/textView28"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp"
-        android:layout_alignBottom="@+id/textView28" />
-
-    <TextView
-        android:text=""
-        android:background="@drawable/arow"
-        android:layout_width="40sp"
-        android:layout_height="35sp"
-        android:id="@+id/textView27"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 
 

@@ -11,26 +11,39 @@
     android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.users">
 
-
-
-    <TextView
-
-        android:text=""
+    <ImageButton
         android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
         android:background="@drawable/arow"
-        android:layout_width="40sp"
-        android:layout_height="35sp"
-        android:id="@+id/textView30"
-        android:layout_weight="0.75" />
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text=""
+    <ImageView
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:background="@drawable/zwara_word"
-        android:id="@+id/textView34"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
 
     <Button
         android:onClick="viewInfo"
@@ -51,9 +64,9 @@
         android:id="@+id/textView40"
         android:textStyle="normal|bold"
         android:textSize="30sp"
-        android:layout_below="@+id/textView34"
-        android:layout_alignRight="@+id/textView29"
-        android:layout_alignEnd="@+id/textView29" />
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:text=""
@@ -65,7 +78,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_marginStart="10dp"
+        android:layout_alignBottom="@+id/textView45" />
 
     <SearchView
         android:layout_width="match_parent"
@@ -75,22 +89,9 @@
         android:layout_below="@+id/textView40"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="18dp" />
+        android:layout_marginTop="14dp" />
 
-    <TextView
 
-        android:text=""
-        android:onClick="GoProfilePage"
-        android:layout_width="40sp"
-        android:background="@drawable/person"
-        android:layout_height="35sp"
-        android:id="@+id/textView29"
-        android:layout_weight="1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="17dp"
-        android:layout_marginEnd="17dp" />
 
     <TextView
         android:text="قائمة المستخدمين"
@@ -101,22 +102,23 @@
         android:id="@+id/textView41"
         android:layout_below="@+id/searchView3"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp" />
 
     <TextView
 
         android:id="@+id/textView45"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_below="@+id/searchView3"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="38dp"
         android:text="سارة"
         android:textAlignment="center"
         android:textSize="20dp"
         android:background="@drawable/borders"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView41"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

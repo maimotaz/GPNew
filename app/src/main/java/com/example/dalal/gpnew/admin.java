@@ -49,6 +49,12 @@ public class admin extends AppCompatActivity {
         Intent intent = new Intent(admin.this,admienprofile.class);
         startActivity(intent);
     }
+    public  void profile (View view)
+    {
 
+        Intent intent = new Intent(admin.this,homeuser.class);
+        startActivity(intent);
+
+    }
 
 }

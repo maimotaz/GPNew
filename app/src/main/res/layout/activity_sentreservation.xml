@@ -12,6 +12,40 @@
     tools:context="com.example.dalal.gpnew.sentreservation">
 
 
+    <ImageButton
+        android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arow"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:background="@drawable/zwara_word"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
+
     <Button
         android:text="الحاضرون"
         android:onClick="come"
@@ -71,15 +105,16 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="دعواتي المرسلة"
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#D98518"
-        android:textSize="40sp"
-        android:id="@+id/textView15"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp" />
+        android:layout_marginTop="57dp"
+        android:text="دعواتي المرسلة"
+        android:textColor="#D98518"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:text="زواجي"
@@ -106,26 +141,8 @@
         android:layout_alignLeft="@+id/button12"
         android:layout_alignStart="@+id/button12" />
 
-    <TextView
-        android:text=""
-        android:layout_width="40sp"
-        android:background="@drawable/person"
-        android:layout_height="35sp"
-        android:id="@+id/textView28"
-        android:layout_alignBaseline="@+id/textView27"
-        android:layout_alignBottom="@+id/textView27"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-    <TextView
-        android:text=""
-        android:background="@drawable/arow"
-        android:layout_width="40sp"
-        android:layout_height="35sp"
-        android:id="@+id/textView27"
-        android:layout_alignBottom="@+id/textView26"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp" />
+
+
 
     <Button
         android:onClick="sugg"
@@ -142,25 +159,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text=""
-        android:background="@drawable/zwara_word"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:id="@+id/textView26"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:text="تخرجي"
-        android:textColor="#8C5812"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button12"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:id="@+id/textView31" />
 
 
 </RelativeLayout>

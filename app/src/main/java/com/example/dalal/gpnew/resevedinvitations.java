@@ -13,6 +13,14 @@ public class resevedinvitations extends AppCompatActivity {
         setContentView(R.layout.activity_resevedinvitations);
     }
 
+    public  void profile(View view)
+    {
+
+        Intent intent = new Intent(resevedinvitations.this,profileuser.class);
+        startActivity(intent);
+
+    }
+
 
     public void resev1(View view)
     {

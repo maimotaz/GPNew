@@ -38,4 +38,20 @@ public class invitationpage extends AppCompatActivity {
         Intent intent = new Intent(invitationpage.this,sentreservation.class);
         startActivity(intent);
     }
+
+    public  void profile (View view)
+    {
+
+        Intent intent = new Intent(invitationpage.this,profileuser.class);
+        startActivity(intent);
+
+    }
+
+    public  void Back (View view)
+    {
+
+        Intent intent = new Intent(invitationpage.this,login.class);
+        startActivity(intent);
+
+    }
 }

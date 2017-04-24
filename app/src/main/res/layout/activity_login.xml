@@ -28,59 +28,49 @@
         android:layout_height="wrap_content"
         android:background="@drawable/passicon"
         android:id="@+id/imageView3"
-        android:layout_marginBottom="128dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/editText5"
-        android:layout_toEndOf="@+id/editText5" />
+        android:layout_above="@+id/button20"
+        android:layout_alignTop="@+id/editText9"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        android:background="@drawable/usericon"
         android:id="@+id/imageView2"
-        android:layout_marginBottom="49dp"
-        android:layout_alignBottom="@+id/imageView3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/editText5"
-        android:layout_toEndOf="@+id/editText5" />
+        android:layout_above="@+id/imageView3"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="21dp"
         android:id="@+id/editText5"
         android:textAlignment="center"
-        android:hint="اسم المستخدم" />
+        android:hint="اسم المستخدم"
+        android:layout_above="@+id/editText9"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:layout_alignBottom="@+id/imageView3"
         android:id="@+id/editText9"
-        android:layout_alignLeft="@+id/editText5"
-        android:layout_alignStart="@+id/editText5"
         android:textAlignment="center"
-        android:hint="كلمة المرور" />
+        android:hint="كلمة المرور"
+        android:layout_above="@+id/button20"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3" />
 
     <Button
         android:onClick="login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
         android:width="260dp"
         android:background="#ffffaa33"
         android:elevation="0dp"
@@ -88,7 +78,11 @@
         android:text="تسجيل الدخول"
         android:textColor="#ffffffff"
         android:textSize="30dp"
-        tools:style="@style/Widget.AppCompat.Button.Borderless" />
+        tools:style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/button20" />
 
     <TextView
         android:text="نسيت كلمة المرور؟"
@@ -113,5 +107,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
 
 </RelativeLayout>

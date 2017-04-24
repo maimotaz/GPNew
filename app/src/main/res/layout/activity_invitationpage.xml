@@ -11,36 +11,38 @@
     android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.invitationpage">
 
-    <TextView
-        android:text=""
+    <ImageButton
+        android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
         android:background="@drawable/arow"
-        android:layout_width="40sp"
-        android:layout_height="35sp"
-        android:id="@+id/textView27"
-        android:layout_alignBottom="@+id/textView26"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp" />
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text=""
-        android:background="@drawable/zwara_word"
+    <ImageView
         android:layout_width="200sp"
         android:layout_height="50sp"
-        android:id="@+id/textView26"
+        android:background="@drawable/zwara_word"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:text=""
-        android:layout_width="40sp"
-        android:background="@drawable/person"
-        android:layout_height="35sp"
-        android:id="@+id/textView28"
-        android:layout_alignBaseline="@+id/textView27"
-        android:layout_alignBottom="@+id/textView27"
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
 
     <TextView
         android:onClick="send"

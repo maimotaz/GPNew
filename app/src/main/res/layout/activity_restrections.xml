@@ -8,28 +8,57 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     tools:context="com.example.dalal.gpnew.restrections">
+
+    <ImageButton
+        android:onClick="Back"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@drawable/arow"
+        android:id="@+id/imageButton2"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:background="@drawable/zwara_word"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageButton
+        android:onClick="profile"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton3"
+        android:scaleType="fitXY"
+        android:background="@drawable/pers"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageView" />
+
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:id="@+id/scroler">
+        android:id="@+id/scroler"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-
-            <TextView
-                android:text="She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana.  She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana."
-                android:layout_width="match_parent"
-                android:layout_height="397dp"
-                android:id="@+id/textView5"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
 
             <TextView
                 android:text="Back"
@@ -39,6 +68,14 @@
                 android:layout_height="36dp"
                 android:paddingTop="20dp"
                 android:id="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana. She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana.  She goes to the zoo. She sees a lion. The lion roars. She sees an elephant. The elephant has a long trunk. She sees a turtle. The turtle is slow. She sees a rabbit. The rabbit has soft fur. She sees a gorilla. The gorilla is eating a banana." />
 
             <CheckBox
                 android:text="I agree and Accept the conditions"

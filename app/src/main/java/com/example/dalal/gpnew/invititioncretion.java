@@ -29,4 +29,12 @@ public class invititioncretion extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public  void profile (View view)
+    {
+
+        Intent intent = new Intent(invititioncretion.this,homeuser.class);
+        startActivity(intent);
+
+    }
 }

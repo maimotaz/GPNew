@@ -21,7 +21,12 @@
         android:layout_width="40sp"
         android:layout_height="35sp"
         android:id="@+id/textView30"
-        android:layout_weight="0.75" />
+        android:layout_weight="0.75"
+        android:layout_toLeftOf="@+id/textView34"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text=""
@@ -150,7 +155,10 @@
         android:layout_weight="1"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_toRightOf="@+id/textView34"
+        android:layout_toEndOf="@+id/textView34"
+        android:layout_above="@+id/imageView" />
 
     <ImageView
         android:layout_width="wrap_content"

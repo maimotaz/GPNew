@@ -28,4 +28,16 @@ public class sentreservation extends AppCompatActivity {
         Intent intent = new Intent(sentreservation.this,sugestion.class);
         startActivity(intent);
     }
+
+    public void Back(View view)
+    {
+        Intent intent = new Intent(sentreservation.this,invitationpage.class);
+        startActivity(intent);
+    }
+
+    public void profile(View view)
+    {
+        Intent intent = new Intent(sentreservation.this,profileuser.class);
+        startActivity(intent);
+    }
 }
