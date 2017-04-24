@@ -19,4 +19,21 @@ public class restorantlist extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public  void profile (View view)
+    {
+
+        Intent intent = new Intent(restorantlist.this,profileuser.class);
+        startActivity(intent);
+
+    }
+
+
+    public  void Back(View view)
+    {
+
+        Intent intent = new Intent(restorantlist.this,homeuser.class);
+        startActivity(intent);
+
+    }
+
 }

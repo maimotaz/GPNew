@@ -15,7 +15,13 @@ public class unbookedtable extends AppCompatActivity {
 
 
     }
+    public  void info (View view)
+    {
 
+        Intent intent = new Intent(unbookedtable.this,tableinfo.class);
+        startActivity(intent);
+
+    }
 
     public  void Back (View view)
     {

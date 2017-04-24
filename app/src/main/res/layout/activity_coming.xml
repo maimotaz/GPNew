@@ -80,6 +80,7 @@
         android:textStyle="normal|bold" />
 
     <TextView
+        android:onClick="Back"
         android:text=""
         android:background="@drawable/zwara_word"
         android:layout_width="200sp"
@@ -100,6 +101,7 @@
         android:layout_alignParentTop="true" />
 
     <TextView
+        android:onClick="profile"
         android:text=""
         android:layout_width="40sp"
         android:background="@drawable/person"

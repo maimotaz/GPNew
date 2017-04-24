@@ -103,6 +103,7 @@
         android:layout_alignTop="@+id/imageView10" />
 
     <ImageButton
+        android:onClick="info"
         android:background="@drawable/open"
         tools:layout_editor_absoluteY="185dp"
         tools:layout_editor_absoluteX="59dp"

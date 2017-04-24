@@ -15,6 +15,15 @@ public class homeuser extends AppCompatActivity {
     }
 
 
+    public  void profile(View view)
+    {
+
+        Intent intent = new Intent(homeuser.this,profileuser.class);
+        startActivity(intent);
+
+    }
+
+
     public  void Back (View view)
     {
 

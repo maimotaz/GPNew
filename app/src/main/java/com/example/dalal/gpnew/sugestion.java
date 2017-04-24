@@ -24,7 +24,7 @@ public class sugestion extends AppCompatActivity {
     public  void Back(View view)
     {
 
-        Intent intent = new Intent(sugestion.this,profileuser.class);
+        Intent intent = new Intent(sugestion.this,sentreservation.class);
         startActivity(intent);
 
     }
